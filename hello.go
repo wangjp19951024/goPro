@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
-func  main()  {
-	fmt.Printf("hello");
+var b = "wangjainping"
+
+func main() {
+	a := 1
+	fmt.Printf("hello\n")
+	fmt.Println("a: %d, b: %s", a, b)
 }
